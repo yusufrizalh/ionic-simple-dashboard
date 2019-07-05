@@ -19,7 +19,12 @@ export class MenuPage implements OnInit {
     {
       title: 'Second Page blank',
       url: '/menu/second'
-    }
+    },
+    // tambahkan untuk firebase-page
+    {
+      title: 'Firebase Page',
+      url: '/menu/firebase-page'
+    },
   ];
 
   // constructor() { }

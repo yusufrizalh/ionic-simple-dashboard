@@ -31,7 +31,12 @@ const routes: Routes = [
       {
         path: 'second/details',
         loadChildren: '../details/details.module#DetailsPageModule'
-      }
+      },
+      // tambahkan untuk firebase-page
+      {
+        path: 'firebase-page',
+        loadChildren: '../firebase-page/firebase-page.module#FirebasePagePageModule'
+      },
     ]
   }
 ];
